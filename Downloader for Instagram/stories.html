@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hikayeler</title>
+    <link href="css/photoswipe.css" rel="stylesheet" type="text/css">
+    <link href="css/photoswipe-default-skin.css" rel="stylesheet" type="text/css">
+    <link href="css/perfect-scrollbar.min.css" rel="stylesheet" type="text/css">
+    <link href="css/content.css" rel="stylesheet" type="text/css">
+    <link href="css/stories.css" rel="stylesheet" type="text/css">
+    <style>
+        .error_story_not_found{
+            display: none;
+            margin-top: 20%;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="error_story_not_found"></div>
+<div class="unauthorized_msg">
+    <div class="text"></div>
+    <div class="link"><a href="https://www.instagram.com/accounts/login/" target="_blank"></a></div>
+</div>
+<div class="up_to_top_button"></div>
+<div class="page_wrap">
+    <div class="rate_wrapper">
+        <div id="logo"></div>
+        <div class="feedback_wrap">
+				<span id="rating-ask">
+					<a href="https://github.com/Crpsem/Downloader-for-Instagram-Upload-photo"><span class="ext_text"></a></span>
+					<br>
+					</span>
+				</span>
+        </div>
+    </div>
+    <div class="page_container">
+        <div id="nav">
+            <div class="nav_item" data-nav_name="friends">
+                <div class="nav_item_wrap">
+                    <span class="text"></span><span class="icon"></span></div>
+                </div>
+            <div class="nav_item" data-nav_name="top_lives">
+                <div class="nav_item_wrap">
+                <span class="text"></span><span class="icon"></span></div>
+            </div>
+            <div class="nav_item" data-nav_name="locations">
+                <div class="nav_item_wrap">
+                <span class="text"></span><span class="icon"></span></div>
+                </div>
+            <div class="nav_item" data-nav_name="search">
+                <div class="nav_item_wrap">
+                <span class="text"></span><span class="icon"></span></div>
+            </div>
+        </div>
+        <div class="content_container">
+            <div id="friends">
+                <div class="name_filter">
+                    <input type="text" name="name_filter_input">
+                </div>
+                <div class="content_list"></div>
+            </div>
+            <div id="top_lives">
+                <div class="content_list"></div>
+            </div>
+            <div id="locations">
+                <div class="name_filter">
+                    <input type="text" name="name_filter_input">
+                </div>
+                <div class="content_list"></div>
+            </div>
+            <div id="search">
+                <div class="search_input_wrap">
+                    <input type="text" name="search_input">
+                </div>
+                <div class="search_btns_wrap">
+                    <button class="search_button" id="search_users"></button>
+                    <button class="search_button" id="search_tags"></button>
+                    <button class="search_button" id="search_places"></button>
+                </div>
+                <div class="content_list"></div>
+            </div>
+        </div>
+        <div class="nav_update_loader"></div>
+    </div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/photoswipe.js"></script>
+<script src="js/photoswipe-ui-default.js"></script>
+<script src="js/dash.all.min.js"></script>
+<script src="js/perfect-scrollbar.jquery.min.js"></script>
+<script src="js/perfect-scrollbar.min.js"></script>
+<script src="js/jszip.min.js"></script>
+<script src="js/FileSaver.js"></script>
+<script src="js/jszip_utils.js"></script>
+
+<script src="js/globalUtils.js"></script>
+<script src="js/countryList.js"></script>
+<script src="js/stories.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Instagram için indiriciâ„¢</title>
+	<link href="css/phone.css" rel="stylesheet" type="text/css">
+	<style media="screen">
+		html, body {
+			padding: 0;
+			margin: 0;
+			height: 100%
+		}
+
+		body {
+			max-width: 1200px;
+			margin: 0 auto;
+			justify-content: center;
+			display: flex;
+		}
+
+		@keyframes flickerAnimation {
+			0%   { opacity:1; }
+			50%  { opacity:0; }
+			100% { opacity:1; }
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div id="logo"></div>
+			<div class="feedback_wrap">
+				<span id="rating-ask">
+					<span class="ext_text"></span>
+					<br>
+					<span class="stars">
+						<a class="star" data-pos="1">
+							<span class="empty"></span>
+							<span class="filled"></span>
+						</a>
+						 <a class="star" data-pos="2">
+						   <span class="empty"></span>
+							<span class="filled"></span>
+						</a>
+						 <a class="star" data-pos="3">
+							<span class="empty"></span>
+							<span class="filled"></span>
+						</a>
+						 <a class="star" data-pos="4">
+						   <span class="empty"></span>
+							<span class="filled"></span>
+						</a>
+						 <a class="star" data-pos="5">
+							<span class="empty"></span>
+							<span class="filled"></span>
+						</a>
+					</span>
+				</span>
+			</div>
+			<div class="device_toggler_wrap">
+				<div class="device_toggler_wrap2">
+					<span class="phone_icon"></span>
+					<div class="device_toggler">
+						<label class="switch">
+							<input type="checkbox" id="deviceswitch">
+							<span class="slider round"></span>
+						</label>
+					</div>
+					<span class="tablet_icon"></span>
+				</div>
+			</div>
+			<div class="device_color_switcher">
+				<div class="device_color_switcher_row">
+					<div class="color color_1" data-color="#FDD8D5"></div>
+					<div class="color color_2" data-color="#F1D9BF"></div>
+					<div class="color color_3" data-color="#E6E7E9"></div>
+				</div>
+				<div class="device_color_switcher_row">
+					<div class="color color_4" data-color="#35383D"></div>
+					<div class="color color_5" data-color="#000000"></div>
+					<div class="color color_6" data-color="#873239"></div>
+				</div>
+				<div class="device_color_switcher_row">
+					<div class="color color_7" data-color="#54E9DD"></div>
+					<div class="color color_8" data-color="#28B3D4"></div>
+					<div class="color color_9" data-color="#A7A7A7"></div>
+				</div>
+			</div>
+			<div class="bookmarks_wrap">
+				<button class="add_to_bookmarks"></button>
+			</div>
+		</div>
+		<div class="phone_wrap">
+			<div class="phone">
+				<div class="arrow_left">
+					<span class="ext_icon"></span>
+				</div>
+				<div class="arrow_right">
+					<span class="ext_icon"></span>
+				</div>
+				<div class="label">
+					<span class="icon"></span>
+					<span class="text"></span>
+				</div>
+				<div class="insta_loading">
+					<i class="icon"></i>
+					<span class="text"></span>
+				</div>
+				<div id="iframe_wrap"></div>
+				<div class="circle"></div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/phone.js"></script>
+</body>
+</html>

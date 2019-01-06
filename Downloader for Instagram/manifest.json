@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/jquery.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "img/icon_16.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/content.css", "css/content-mobile.css", "css/photoswipe.css", "css/photoswipe-default-skin.css", "css/croppie.css", "css/perfect-scrollbar.min.css" ],
+      "js": [ "js/jquery.js", "js/photoswipe.js", "js/photoswipe-ui-default.js", "js/jquery-ui-1.10.3.custom.min.js", "js/jquery.mousewheel.min.js", "js/jquery.kinetic.min.js", "js/jquery.smoothdivscroll-1.3-min.js", "js/jszip.min.js", "js/FileSaver.js", "js/jszip_utils.js", "js/perfect-scrollbar.jquery.min.js", "js/perfect-scrollbar.min.js", "js/croppie.min.js", "js/globalUtils.js", "js/instagram_com.js" ],
+      "matches": [ "*://*.instagram.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "img/icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgpCnMY1+ZG/hpgdeopyacKO523HM1aYSSRKQOWILc6X+n5//flULeoevZUyQSzdXV9Ao7gcTY2mvb/ZKIhpybl1f6PuACLXzdKElYe/kFNDRFB55MqgCk9mQPNvNc+seQgA3xuC3EdiT9UmaplfqLEImmaswDGCeLsS0C9XyJ1dwjMyu4GgoeaYQKPDTV9T5ZO39KOgA4hnUmljs+NAerad0roFAbAVGLFimVeLQ5rb+rmohfsLFxnhGGxt7dpzGOxZdpgk6o/7jnij9d9sasodFew/Dys0I4lQQxm8CG2s6CXOBD0P1hpBrIKwz4txyoFOedKcry39gPPVjJ6vbjQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "40",
+   "name": "__MSG_extName__",
+   "permissions": [ "storage", "tabs", "downloads", "\u003Call_urls>", "bookmarks", "management", "cookies", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.0.5",
+   "web_accessible_resources": [ "thankyou.html", "stories.html", "css/*", "img/*" ]
+}

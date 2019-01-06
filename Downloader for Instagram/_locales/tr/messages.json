@@ -1,0 +1,308 @@
+{	
+   "add_to_bookmarks": {
+      "message": "Yer imlerine ekle"
+   },
+   "advanced_download_all_not_match": {
+      "message": "Set parametresi için sonuç bulunamadı"
+   },
+   "advanced_settings_mass_download": {
+      "message": "Gelişmiş ayarlar (beta sürümü)"
+   },
+   "are_you_sure_delete": {
+      "message": "Bu yayını silmek istediğinize emin misiniz?"
+   },
+   "broadcast_finished": {
+      "message": "Bu canlı video sona erdi"
+   },
+   "btn_cancel": {
+      "message": "İptal"
+   },
+   "btn_continue": {
+      "message": "Devam et"
+   },
+   "btn_enough": {
+      "message": "Durdur & Kaydet"
+   },
+   "by_default_100": {
+      "message": "varsayılan olarak 100%"
+   },
+   "change_rate": {
+      "message": "Uygulama derecelendirmesini değiştir"
+   },
+   "check_network": {
+      "message": "İnternet bağlantınızı kontrol edin ve tekrar deneyin"
+   },
+   "click_on_prev_for_download": {
+      "message": "Medya indirmek için önizlemeyi tıklayın"
+   },
+   "close": {
+      "message": "Kapat"
+   },
+   "comments_is_muted": {
+      "message": "Yorumlar özelliği susturuldu"
+   },
+   "delete": {
+      "message": "Sil"
+   },
+   "delete_by_mobile_mode": {
+      "message": "Mobil moddan silmeyi deneyin"
+   },
+   "delete_error": {
+      "message": "Hata Sil"
+   },
+   "disconnect_notification": {
+      "message": "Downloader for Instagram™ uygulamasını kullanmaya devam etmek için bu sayfayı yenileyin"
+   },
+   "do_not_show_again": {
+      "message": "Bunu bir daha gösterme"
+   },
+   "download": {
+      "message": "İndir"
+   },
+   "download_all": {
+      "message": "Hepsini indir"
+   },
+   "download_more_100_warning": {
+      "message": "Büyük miktarda dosya indirmek çok zaman alabilir ve kaybolabilir"
+   },
+   "download_zip": {
+      "message": "Instagram ™ sunucusundan dosya indirme"
+   },
+   "enter_your_email": {
+      "message": "E-posta adresiniz"
+   },
+   "error403_possible_reasons": {
+      "message": "Olası nedenler"
+   },
+   "error403_reason_1": {
+      "message": "Instagram sunucusu diyor ki \"Unathorized\". İnstagram hesabınıza yeniden giriş yapmayı deneyin."
+   },
+   "error403_reason_2": {
+      "message": "Başka bir uzantıyla çakışıyor. Diğer uzantıları kapatın ve tekrar deneyin."
+   },
+   "errorZip": {
+      "message": "Zip dosyası alınırken hata oluştu. Büyük olasılıkla İnternet bağlantı hızınız veya bilgisayar gücünüz dahilinde çok fazla dosya indirmeyi denediniz. Çalışmasını sağlamak için dosya sayısını azaltmaya çalışın veya birkaç saniye içinde tekrar deneyin. Bazen Instagram ™ sunucuları bir çok istek üzerine sıkışıp kalıyor."
+   },
+   "error_dl_msg": {
+      "message": "İndirme hatası"
+   },
+   "error_network": {
+      "message": "Hata Ağ"
+   },
+   "error_reason_xz": {
+      "message": "Tekrar deneyin"
+   },
+   "extDescription": {
+      "message": "Instagram ™ 'daki fotoğrafları ve videoları hızlı ve kolay bir şekilde indirin! Desteklenen Hikayeler indir! Tek bir tıklamayla desteklenen toplu indirme!"
+   },
+   "extName": {
+      "message": "Instagram ™ için İndirici (+ Fotoğraf yükle)"
+   },
+   "files_found_on_page": {
+      "message": "Sayfada bulunan yazılar"
+   },
+   "for_previous_days": {
+      "message": "Önceki günler için"
+   },
+   "from": {
+      "message": "itibaren"
+   },
+   "go_to_instagram": {
+      "message": "Instagram.com'a git"
+   },
+   "hide_live_comments": {
+      "message": "Yorumları gizles"
+   },
+   "it_is_not_instagram": {
+      "message": "Instagram ™ medyası bu sayfada bulunamadı"
+   },
+   "it_is_phone_mode": {
+      "message": "Pop-up mobil görünümde etkin değil"
+   },
+   "lang": {
+      "message": "tr"
+   },
+   "loading": {
+      "message": "Yükleniyor"
+   },
+   "mass_download_pro": {
+      "message": "İleri"
+   },
+   "mass_download_pro_back": {
+      "message": "Gelişmiş'i gizle"
+   },
+   "most_liked": {
+      "message": "En çok sevilen"
+   },
+   "most_viewed": {
+      "message": "En çok görüntülenen"
+   },
+   "new_post": {
+      "message": "Yeni gönderi"
+   },
+   "new_story": {
+      "message": "Yeni hikaye"
+   },
+   "next": {
+      "message": "Sonraki"
+   },
+   "no": {
+      "message": "Hayır"
+   },
+   "noLinksFound": {
+      "message": "Bağlantı bulunamadı"
+   },
+   "notAuthorizedMsg": {
+      "message": "Lütfen Instagram hesabınıza giriş yapın"
+   },
+   "not_valid_email": {
+      "message": "e-posta geçerli değil"
+   },
+   "ok": {
+      "message": "Tamam"
+   },
+   "only_photo": {
+      "message": "Sadece fotoğraf"
+   },
+   "only_video": {
+      "message": "Sadece video"
+   },
+   "open_new_tab_for_surfing": {
+      "message": "Sörf yapmaya devam etmek için Instagram.com'u yeni sekmede açın."
+   },
+   "parallel_all_download_denied": {
+      "message": "Lütfen başka bir sekmedeki indirme işleminiz tamamlanıncaya kadar bekleyin."
+   },
+   "pleaseWait": {
+      "message": "Lütfen bekle"
+   },
+   "prepare_zip_links": {
+      "message": "Link hazırlama"
+   },
+   "rate_us_modal": {
+      "message": "Eğer hoşuna giderse, bize puan ver."
+   },
+   "rate_us_popup": {
+      "message": "By Crpsem"
+   },
+   "reloadPage": {
+      "message": "Downloader for Instagram ™ uygulamasını etkinleştirmek için lütfen sayfayı yenileyin"
+   },
+   "reloadPageLong": {
+      "message": "Yüklemeden sonra Instagram ™ sayfasını yenile"
+   },
+   "reloadPageShort": {
+      "message": "Sayfayı yenile"
+   },
+   "remind_later": {
+      "message": "Bana daha sonra hatırlat"
+   },
+   "report_a_problem": {
+      "message": "Geri bildirim bırakın"
+   },
+   "retry_requests": {
+      "message": "Dosyaları tekrar denemek"
+   },
+   "scroll_page_for_download_more": {
+      "message": "Daha fazla dosya indirmek için sayfayı aşağı kaydırın"
+   },
+   "send": {
+      "message": "Gönder"
+   },
+   "set_percent": {
+      "message": "Yüzde ayarla"
+   },
+   "set_range": {
+      "message": "Aralığı ayarla"
+   },
+   "show_live_comments": {
+      "message": "Yorumları göster"
+   },
+   "stories_page_filter_input": {
+      "message": "Ada göre filtrele"
+   },
+   "stories_page_friends": {
+      "message": "Arkadaş"
+   },
+   "stories_page_friends_stories_header": {
+      "message": "Hikayeler"
+   },
+   "stories_page_live_not_found": {
+      "message": "Hikaye bulunamadı"
+   },
+   "stories_page_locations": {
+      "message": "Mekanlar"
+   },
+   "stories_page_no_stories_msg": {
+      "message": "Yeni hikaye yok"
+   },
+   "stories_page_no_stories_something_went_wrong_msg": {
+      "message": "Hikaye yok. Bir şeyler yanlış gitti :("
+   },
+   "stories_page_search": {
+      "message": "Arama"
+   },
+   "stories_page_search_btn_people": {
+      "message": "Kullanıcıları bul"
+   },
+   "stories_page_search_btn_places": {
+      "message": "Yerleri bul"
+   },
+   "stories_page_search_btn_tags": {
+      "message": "Etiketleri bul"
+   },
+   "stories_page_search_input_placeholder": {
+      "message": "Anahtar kelimeyi girin"
+   },
+   "stories_page_top_lives": {
+      "message": "En iyi hayatlar"
+   },
+   "story_is_added": {
+      "message": "Öykü başarıyla eklendi"
+   },
+   "story_is_not_available": {
+      "message": "Hikaye artık mevcut değil"
+   },
+   "symbols_left": {
+      "message": "Kalan karakterler"
+   },
+   "tab_is_not_complete": {
+      "message": "Geçerli sekme yükleme işlemi tamamlanmadı"
+   },
+   "thankyouText": {
+      "message": "Instagram™ Downloaderı yüklediğiniz için teşekkür ederiz!"
+   },
+   "to": {
+      "message": "için"
+   },
+   "upload_by_mobile_mode": {
+      "message": "Mobil moddan yüklemeyi dene "
+   },
+   "upload_error": {
+      "message": "Yükleme Hatası"
+   },
+   "upload_file": {
+      "message": "Fotoğraf yükle (yalnızca jpeg)"
+   },
+   "upload_to_profile": {
+      "message": "Profile ekle"
+   },
+   "upload_to_stories": {
+      "message": "Hikayelere Ekle"
+   },
+   "waiting_response_for_virtual_scroll": {
+      "message": "Panik yapmayın! Instagram.com Sunucusunun yanıtını bekliyoruz."
+   },
+   "write_caption": {
+      "message": "Bir başlık yazın ... (en fazla 2000 karakter)"
+   },
+   "write_us": {
+      "message": "bize yazın"
+   },
+   "your_email": {
+      "message": "E-posta"
+   },
+   "your_rate": {
+      "message": "senin oranın"
+   }
+}
